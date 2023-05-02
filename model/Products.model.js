@@ -7,6 +7,8 @@ const ProductSchema = new mongoose.Schema({
     address:{type:String, required:true},
     location:{type:String, required:true},
     price:{type:Number, required:true},
+    City:{type:String},
+    category:[String],
     Dineout_Pay:{type:String}
 
 })
